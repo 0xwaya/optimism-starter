@@ -76,7 +76,7 @@ export function Attestooooooor() {
 
   return (
     <div>
-      <h2>Attestoooooor</h2>
+      <h2>Attestor</h2>
       <div>
         Current attestation: {attestation ? parseString(attestation) : "none"}
       </div>
