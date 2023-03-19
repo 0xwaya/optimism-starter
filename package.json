@@ -24,6 +24,7 @@
     "@openzeppelin/contracts-upgradeable": "4.7.3",
     "@rainbow-me/rainbowkit": "^0.11.0",
     "@wagmi/cli": "^0.1.10",
+    "alchemy-sdk": "^2.6.1",
     "buffer": "^6.0.3",
     "ethers": "^5.7.2",
     "process": "^0.11.10",
