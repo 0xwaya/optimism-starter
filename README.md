@@ -30,7 +30,15 @@ You will need to install [Foundry](https://book.getfoundry.sh/getting-started/in
 
 ## Start the application
 
-<img width="450" alt="got-spork-screenshot" src="https://github.com/0xwaya/scaleth_opatts/blob/main/src/daoverified.png"/>
+<img width="250" alt="got-spork-screenshot" src="https://github.com/0xwaya/scaleth_opatts/blob/main/src/ethglobal1.png"/>
+
+## Connect wallet
+
+<img width="250" alt="got-spork-screenshot" src="https://github.com/0xwaya/scaleth_opatts/blob/main/src/rainbowkit.png"/>
+
+## Input wallet address to verify
+
+<img width="250" alt="got-spork-screenshot" src="https://github.com/0xwaya/scaleth_opatts/blob/main/src/daoverified.png"/>
 
 1. Clone/fork the optimism-starter repo
 
