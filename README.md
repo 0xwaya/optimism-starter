@@ -1,4 +1,5 @@
 # ethglobal_hack
+
 Scaling Ethereum 2023
 
 This is a [Optimism](https://github.com/ethereum-optimism) + [wagmi](https://wagmi.sh) + [Foundry](https://book.getfoundry.sh/) + [Rainbowkit](https://www.rainbowkit.com/) + [Vite](https://vitejs.dev/) project originally bootstrapped with [`create-wagmi`](https://github.com/wagmi-dev/wagmi/tree/main/packages/create-wagmi)
@@ -29,7 +30,7 @@ You will need to install [Foundry](https://book.getfoundry.sh/getting-started/in
 
 ## Start the application
 
-<img width="450" alt="starter-app-screenshot" src="https://user-images.githubusercontent.com/389705/225778318-4e6fb8c0-c5d7-4aea-9fc2-2efd17ca435c.png">
+<img width="450" alt="got-spork-screenshot" src="https://github.com/0xwaya/scaleth_opatts/blob/main/src/daoverified.png"/>
 
 1. Clone/fork the optimism-starter repo
 
