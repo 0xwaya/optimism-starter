@@ -6,6 +6,7 @@ import {
   encodeRawKey,
 } from "@eth-optimism/atst";
 
+
 /**
  * These react hooks are generated with the wagmi cli via `wagmi generate`
  * @see ROOT/wagmi.config.ts
@@ -15,6 +16,7 @@ import {
   usePrepareAttestationStationAttest,
   useAttestationStationAttestations,
 } from "../generated";
+
 
 /**
  * An example component using the attestation station
@@ -27,18 +29,18 @@ export function Attestooooooor() {
   /**
    * @see https://reactjs.org/docs/hooks-state.html
    */
-  const [value, setValue] = useState("Hello world");
+  const [value, setValue] = useState("");
 
   /**
    * The key of the attestation
    * @see https://www.npmjs.com/package/@eth-optimism/atst
    */
-  const key = encodeRawKey("hello-world");
+  const key = encodeRawKey("SporkDAO Membership");
   /**
    * Value of the attestation
    * @see https://www.npmjs.com/package/@eth-optimism/atst
    */
-  const newAttestation = stringifyAttestationBytes(value);
+  const newAttestation = stringifyAttestationBytes("Membership Verified");
 
   /**
    * Automatically generated hook to prepare the transaction
@@ -76,9 +78,9 @@ export function Attestooooooor() {
 
   return (
     <div>
-      <h2>Attestor</h2>
+      <h2>DAO Membership Verification</h2>
       <div>
-        Current attestation: {attestation ? parseString(attestation) : "none"}
+        SporkDAO Verification: {attestation ? parseString(attestation) : "none"}
       </div>
       <input
         disabled={isLoading}
@@ -86,7 +88,7 @@ export function Attestooooooor() {
         value={value}
       />
       <button disabled={!write || isLoading} onClick={() => write?.()}>
-        Attest
+        Verify
       </button>
       {isLoading && <ProcessingMessage hash={data?.hash} />}
       <div>
