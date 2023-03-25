@@ -14,22 +14,22 @@ export function App() {
 
   return (
     <main className="App">
-      <div className="header">
+      <div className="App-header">
         <h1>GOT SPORK?</h1>
-        <div className="connect-button">
+        <div className="App-connect">
           <ConnectButton />
         </div>
       </div>
 
-      <div className="content">
+      <div className="App-content">
         {isLoading ? (
-          <div className="loading">Loading...</div>
+          <div className="App-loading">Loading...</div>
         ) : (
           <>
             {isConnected ? (
               <Attestooooooor />
             ) : (
-              <div className="connect-wallet">
+              <div className="App-connect">
                 Please connect your wallet to proceed
               </div>
             )}
@@ -37,9 +37,9 @@ export function App() {
         )}
       </div>
 
-      <div className="footer">
-        © 2023 GOT SPORK? built by 0xwaya.&nbsp;
-        <a href="https://github.com/0xwaya/opatts">opatts</a>.
+      <div className="App-footer">
+        © 2023 GOT SPORK? built by @0xwaya.&nbsp;
+        <a href="https://github.com/0xwaya/opatts">gotSpork?</a>.
       </div>
     </main>
   );

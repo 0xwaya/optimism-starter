@@ -45,17 +45,17 @@
   font-size: 1em;
   font-weight: bold;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  cursor: pointer; /*added a cursor pointer to make it clear that the button is interactive*/
-  transition: transform 0.2s ease-in-out; /*added a smooth transition on hover*/
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
 }
 
 .App-button:hover {
-  transform: translateY(-2px); /*added a slight hover effect*/
+  transform: translateY(-2px);
 }
 
 .App-content {
   background: linear-gradient(to bottom right, #888888, #cccccc);
-  color: black; /*switched the color to black for improved readability*/
+  color: black;
   padding: 1em;
   flex: 3 1 auto;
   max-width: 100%;
@@ -64,7 +64,7 @@
 .App-loading {
   font-size: 2em;
   font-weight: bold;
-  color: black; /*switched the color to black for improved visibility*/
+  color: black;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: center;
   margin-top: 20px;
@@ -87,4 +87,3 @@
   border-radius: 5px;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   margin-top: 2em;
-}

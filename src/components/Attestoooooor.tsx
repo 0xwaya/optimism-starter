@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { useAccount, useNetwork, useWaitForTransaction } from "wagmi";
 import {
@@ -29,18 +30,18 @@ export function Attestooooooor() {
   /**
    * @see https://reactjs.org/docs/hooks-state.html
    */
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState("wallet-address");
 
   /**
    * The key of the attestation
    * @see https://www.npmjs.com/package/@eth-optimism/atst
    */
-  const key = encodeRawKey("SporkDAO Membership");
+  const key = encodeRawKey("SporkDAO");
   /**
    * Value of the attestation
    * @see https://www.npmjs.com/package/@eth-optimism/atst
    */
-  const newAttestation = stringifyAttestationBytes("Membership Verified");
+  const newAttestation = stringifyAttestationBytes("SporkDAO-Member");
 
   /**
    * Automatically generated hook to prepare the transaction
@@ -78,9 +79,9 @@ export function Attestooooooor() {
 
   return (
     <div>
-      <h2>DAO Membership Verification</h2>
+      <h2>SPORK DAO Member?</h2>
       <div>
-        SporkDAO Verification: {attestation ? parseString(attestation) : "none"}
+        Verification: {attestation ? parseString(attestation) : "none "}
       </div>
       <input
         disabled={isLoading}
@@ -88,7 +89,7 @@ export function Attestooooooor() {
         value={value}
       />
       <button disabled={!write || isLoading} onClick={() => write?.()}>
-        Verify
+        Submit
       </button>
       {isLoading && <ProcessingMessage hash={data?.hash} />}
       <div>
