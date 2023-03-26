@@ -30,7 +30,7 @@ export function Attestooooooor() {
   /**
    * @see https://reactjs.org/docs/hooks-state.html
    */
-  const [value, setValue] = useState("wallet-address");
+  const [value, setValue] = useState("");
 
   /**
    * The key of the attestation

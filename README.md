@@ -4,7 +4,7 @@ Scaling Ethereum 2023
 
 This is a [Optimism](https://github.com/ethereum-optimism) + [wagmi](https://wagmi.sh) + [Foundry](https://book.getfoundry.sh/) + [Rainbowkit](https://www.rainbowkit.com/) + [Vite](https://vitejs.dev/) project originally bootstrapped with [`create-wagmi`](https://github.com/wagmi-dev/wagmi/tree/main/packages/create-wagmi)
 
-## Getting Started
+## GOT SPORK?  Attestation station to verify DAO membership
 
 ### Install Node
 
